@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { tailorResume } = require('../services/claude');
+const { createAIService } = require('../services/ai/factory');
 const { generatePDF } = require('../services/pdf');
 
 router.post('/generate', async (req, res) => {
@@ -13,9 +13,10 @@ router.post('/generate', async (req, res) => {
       });
     }
 
-    // Tailor the resume using Claude
-    console.log('Tailoring resume with Claude...');
-    const tailoredResume = await tailorResume(masterResume, jobDescription);
+    // Tailor the resume using configured AI service
+    console.log('Tailoring resume with AI...');
+    const aiService = createAIService();
+    const tailoredResume = await aiService.tailorResume(masterResume, jobDescription);
 
     // Generate PDF
     console.log('Generating PDF...');
