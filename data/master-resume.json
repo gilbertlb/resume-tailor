@@ -1,0 +1,83 @@
+{
+  "contactInfo": {
+    "name": "Your Name",
+    "email": "your.email@example.com",
+    "phone": "(123) 456-7890",
+    "location": "City, State",
+    "linkedin": "https://linkedin.com/in/yourprofile",
+    "github": "https://github.com/yourusername"
+  },
+  "summary": "Experienced professional with expertise in [your field]. Proven track record of [key achievements]. Skilled in [core competencies]. Passionate about [what drives you professionally].",
+  "experience": [
+    {
+      "company": "Company Name",
+      "position": "Job Title",
+      "location": "City, State",
+      "startDate": "Jan 2020",
+      "endDate": "Present",
+      "bullets": [
+        "Led cross-functional team of 5 engineers to deliver project that increased revenue by 25%",
+        "Developed and implemented new system that reduced processing time by 40%",
+        "Collaborated with stakeholders to define requirements and ensure alignment with business goals",
+        "Mentored junior team members and conducted code reviews to maintain high quality standards"
+      ]
+    },
+    {
+      "company": "Previous Company",
+      "position": "Previous Job Title",
+      "location": "City, State",
+      "startDate": "Jun 2017",
+      "endDate": "Dec 2019",
+      "bullets": [
+        "Built and maintained web applications serving 100K+ daily active users",
+        "Optimized database queries resulting in 60% improvement in application performance",
+        "Implemented CI/CD pipeline that reduced deployment time from hours to minutes",
+        "Participated in agile development process including sprint planning and retrospectives"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University Name",
+      "degree": "Bachelor of Science",
+      "field": "Computer Science",
+      "graduationDate": "May 2017",
+      "gpa": "3.8"
+    }
+  ],
+  "skills": {
+    "technical": [
+      "JavaScript",
+      "Python",
+      "React",
+      "Node.js",
+      "SQL",
+      "Git",
+      "AWS",
+      "Docker"
+    ],
+    "soft": [
+      "Leadership",
+      "Communication",
+      "Problem Solving",
+      "Team Collaboration",
+      "Project Management"
+    ]
+  },
+  "projects": [
+    {
+      "name": "Personal Project Name",
+      "description": "Brief description of the project and its purpose",
+      "technologies": [
+        "React",
+        "Node.js",
+        "MongoDB"
+      ],
+      "bullets": [
+        "Designed and implemented full-stack application with modern tech stack",
+        "Achieved 95% test coverage using Jest and React Testing Library",
+        "Deployed to production using Docker and AWS EC2"
+      ]
+    }
+  ]
+}

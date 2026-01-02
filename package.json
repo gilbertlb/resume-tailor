@@ -1,0 +1,16 @@
+{
+  "name": "resume-tailor",
+  "version": "1.0.0",
+  "description": "A web application to tailor resumes to job postings using Claude AI",
+  "scripts": {
+    "install-all": "cd server && npm install && cd ../client && npm install",
+    "dev": "concurrently \"cd server && npm run dev\" \"cd client && npm start\"",
+    "start": "cd server && npm start"
+  },
+  "keywords": ["resume", "ai", "claude", "job-application"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.1"
+  }
+}
